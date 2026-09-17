@@ -1,0 +1,103 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\.venv\\Scripts\\python.exe",
+  "cv2_file": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\.venv\\Lib\\site-packages\\cv2\\__init__.py",
+  "cv2_version": "4.10.0",
+  "ffmpeg_build_info": "FFMPEG:                      YES (find_package)",
+  "vp9": {
+    "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\media\\vp9.mkv",
+    "isOpened": true,
+    "backend": "FFMPEG",
+    "valid_frames": 100,
+    "invalid_frame": null,
+    "first_shape": [
+      240,
+      320,
+      3
+    ]
+  },
+  "h264": {
+    "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\media\\h264.mkv",
+    "isOpened": false,
+    "backend": null,
+    "valid_frames": 0,
+    "invalid_frame": null,
+    "first_shape": null
+  },
+  "ffmpeg_dll_evidence": [
+    {
+      "name": "avcodec-60.dll",
+      "expected": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avcodec-60.dll",
+        "size": 2079744,
+        "sha256": "a71419b6948c62ad811c4c477b20b89aea77dd2e0a1397eb3f58778ed92f2e0c"
+      },
+      "loaded": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avcodec-60.dll",
+        "size": 2079744,
+        "sha256": "a71419b6948c62ad811c4c477b20b89aea77dd2e0a1397eb3f58778ed92f2e0c"
+      },
+      "same_path": true
+    },
+    {
+      "name": "avformat-60.dll",
+      "expected": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avformat-60.dll",
+        "size": 369664,
+        "sha256": "6b4cf965d870e0e1b00c5bd9a6d87d1ebeec2f5b458095ad8353e212ced8eb3a"
+      },
+      "loaded": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avformat-60.dll",
+        "size": 369664,
+        "sha256": "6b4cf965d870e0e1b00c5bd9a6d87d1ebeec2f5b458095ad8353e212ced8eb3a"
+      },
+      "same_path": true
+    },
+    {
+      "name": "avutil-58.dll",
+      "expected": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avutil-58.dll",
+        "size": 821248,
+        "sha256": "5b05a585e79bb8fe976b15e269a02b524e4765dcbfe55d225217207670d2269b"
+      },
+      "loaded": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avutil-58.dll",
+        "size": 821248,
+        "sha256": "5b05a585e79bb8fe976b15e269a02b524e4765dcbfe55d225217207670d2269b"
+      },
+      "same_path": true
+    },
+    {
+      "name": "swscale-7.dll",
+      "expected": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\swscale-7.dll",
+        "size": 458752,
+        "sha256": "ccc617f177eedee3204e5f654dd52c83fa17e0a0a8ac3b52cbe7d9b9ea20ea64"
+      },
+      "loaded": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\swscale-7.dll",
+        "size": 458752,
+        "sha256": "ccc617f177eedee3204e5f654dd52c83fa17e0a0a8ac3b52cbe7d9b9ea20ea64"
+      },
+      "same_path": true
+    },
+    {
+      "name": "swresample-4.dll",
+      "expected": {
+        "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\swresample-4.dll",
+        "size": 95232,
+        "sha256": "b77b88d3d4245794b226ab2ba14ea21feb8b55177503b8c23a8c3e19d27be324"
+      },
+      "loaded": null,
+      "same_path": false
+    }
+  ],
+  "cv2_native_module": {
+    "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\.venv\\Lib\\site-packages\\cv2\\python-3.12\\cv2.cp312-win_amd64.pyd",
+    "size": 2555942,
+    "sha256": "bfdbf9be1950897dd6328546afed6c7c47339cb54781121a81931b9d8f00b469"
+  },
+  "opencv_ffmpeg_wrapper_dlls": [],
+  "foreign_ffmpeg_dlls": [],
+  "pass": true
+}

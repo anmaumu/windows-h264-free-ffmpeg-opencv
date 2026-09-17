@@ -1,0 +1,24 @@
+[
+  {
+    "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\media\\vp9.mkv",
+    "size": 728107,
+    "sha256": "f8ba0754531f0ec7710753dfb387cd0682cd98e4983c0fd0d94cb8db2549d8d4",
+    "codec": "vp9",
+    "frames": 120,
+    "width": 320,
+    "height": 240,
+    "source": "testsrc2=size=320x240:rate=30:duration=4",
+    "reference_decode_exit": 0
+  },
+  {
+    "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\media\\h264.mkv",
+    "size": 230356,
+    "sha256": "46bb031c5e756a347d36a216e529271b4c7f617cb34c6435f4cb248d9870c8b5",
+    "codec": "h264",
+    "frames": 120,
+    "width": 320,
+    "height": 240,
+    "source": "testsrc2=size=320x240:rate=30:duration=4",
+    "reference_decode_exit": 0
+  }
+]

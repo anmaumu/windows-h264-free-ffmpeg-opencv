@@ -1,0 +1,16 @@
+{
+  "binary": {
+    "path": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\ffmpeg.exe",
+    "size": 361472,
+    "sha256": "54f19d120ac0ffcd671947cd57742eaf6d726fb8f3eb684c2ac849828f08373d"
+  },
+  "vp9_decoder_present": true,
+  "matroska_demuxer_present": true,
+  "h264_related_decoders": [],
+  "h264_related_encoders": [],
+  "h264_related_explicit_enables": [],
+  "vp9_decode_exit": 0,
+  "vp9_decode_100_frames": true,
+  "h264_decode_exit": 4294967274,
+  "h264_decoder_absence_error": true
+}

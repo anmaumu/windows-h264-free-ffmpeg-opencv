@@ -1,0 +1,39 @@
+# Local build environments and downloaded sources
+audit/.venv/
+audit/build/
+audit/sources/
+audit/prefix/
+
+# Nuitka compiler caches and generated distributions
+audit/nuitka/cache/
+audit/nuitka/build/
+audit/nuitka/short-build/
+audit/nuitka/empty-ffmpeg/
+nuitka-crash-report.xml
+
+# Keep concise evidence; omit large/noisy raw logs by default
+audit/logs/*
+!audit/logs/artifact_inventory.json
+!audit/logs/ffmpeg_verification.json
+!audit/logs/media.json
+!audit/logs/opencv_build_information.txt
+!audit/logs/opencv_identity.txt
+!audit/logs/opencv_loaded_modules.txt
+!audit/logs/opencv_verification.json
+!audit/logs/nuitka-verification.json
+!audit/logs/nuitka-run-external-ffmpeg.stdout.txt
+!audit/logs/nuitka-run-no-ffmpeg.stderr.txt
+!audit/logs/target_version.stdout.txt
+!audit/logs/target_buildconf.stdout.txt
+!audit/logs/target_decoders.stdout.txt
+!audit/logs/target_encoders.stdout.txt
+!audit/logs/target_demuxers.stdout.txt
+!audit/logs/target_hwaccels.stdout.txt
+!audit/logs/target_decode_vp9.stdout.txt
+!audit/logs/target_decode_vp9.stderr.txt
+!audit/logs/target_decode_h264.stdout.txt
+!audit/logs/target_decode_h264.stderr.txt
+
+# Generated Python cache
+__pycache__/
+*.pyc

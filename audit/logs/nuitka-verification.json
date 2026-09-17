@@ -1,0 +1,17 @@
+﻿{
+    "executable":  "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\nuitka\\short-build\\no_ffmpeg_app.dist\\no_ffmpeg_app.exe",
+    "executable_sha256":  "63787999600bdbc5bd90fa0f7170b8d31cd3102858afb692fc014347bcf1eb6d",
+    "distribution_file_count":  46,
+    "distribution_bytes":  147329556,
+    "bundled_ffmpeg_dll_count":  0,
+    "bundled_ffmpeg_dlls":  [
+
+                            ],
+    "sanitized_path":  "C:\\Windows\\System32",
+    "external_ffmpeg_dir":  "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin",
+    "with_external_ffmpeg_exit_code":  0,
+    "with_external_ffmpeg_stdout":  "{\"started\": true, \"cv2_version\": \"4.10.0\", \"cv2_file\": \"C:\\\\Users\\\\masaki\\\\Documents\\\\Codex\\\\2026-09-16\\\\windows-x64-h-264-ffmpeg-opencv\\\\audit\\\\nuitka\\\\short-build\\\\no_ffmpeg_app.dist\\\\cv2\\\\python-3.12\\\\cv2.cp312-win_amd64.pyd\", \"video\": \"C:\\\\Users\\\\masaki\\\\Documents\\\\Codex\\\\2026-09-16\\\\windows-x64-h-264-ffmpeg-opencv\\\\audit\\\\media\\\\vp9.mkv\", \"external_ffmpeg_dir\": \"C:\\\\Users\\\\masaki\\\\Documents\\\\Codex\\\\2026-09-16\\\\windows-x64-h-264-ffmpeg-opencv\\\\audit\\\\prefix\\\\ffmpeg\\\\bin\", \"opened\": true, \"backend\": \"FFMPEG\", \"valid_frames\": 100, \"frames_valid\": true}\r\n",
+    "without_ffmpeg_exit_code":  1,
+    "without_ffmpeg_stderr":  "no_ffmpeg_app.exe : Traceback (most recent call last):\r\nAt C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\scripts\\Verify-Nuitka-NoFFmpeg.ps1:\r\n15 char:1\r\n+ \u0026 $Exe $Video $EmptyFFmpeg 1\u003e \"$AuditRoot\\logs\\nuitka-run-no-ffmpeg.s ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\n  File \"C:\\Users\\masaki\\DOCUME~1\\Codex\\20998E~1\\WINDOW~1\\audit\\nuitka\\SHORT-~1\\NO_FFM~1.DIS\\no_ffmpeg_app.py\", line 52,\r\n in \u003cmodule\u003e\r\n  File \"C:\\Users\\masaki\\DOCUME~1\\Codex\\20998E~1\\WINDOW~1\\audit\\nuitka\\SHORT-~1\\NO_FFM~1.DIS\\no_ffmpeg_app.py\", line 28,\r\n in main\r\n  File \"\u003cfrozen importlib._bootstrap\u003e\", line 813, in module_from_spec\r\n  File \"\u003cfrozen importlib._bootstrap_external\u003e\", line 1293, in create_module\r\n  File \"\u003cfrozen importlib._bootstrap\u003e\", line 488, in _call_with_frames_removed\r\nImportError: DLL load failed while importing cv2: �w�肳�ꂽ���W���[����������܂���B\r\n",
+    "pass":  true
+}

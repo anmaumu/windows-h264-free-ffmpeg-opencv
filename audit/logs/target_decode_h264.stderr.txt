@@ -1,0 +1,21 @@
+ffmpeg version 6.1.2 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 15.2.0 (x86_64-win32-seh-rev0, Built by MinGW-Builds project)
+  configuration: --prefix=../../prefix/ffmpeg --target-os=mingw32 --arch=x86_64 --disable-autodetect --disable-everything --disable-static --enable-shared --disable-doc --disable-debug --disable-x86asm --disable-network --disable-avdevice --disable-postproc --disable-ffplay --enable-ffmpeg --enable-ffprobe --enable-avcodec --enable-avformat --enable-avfilter --enable-swscale --enable-swresample --enable-decoder=vp9 --enable-parser=vp9 --enable-demuxer=matroska --enable-protocol='file,pipe' --enable-muxer=null --enable-encoder=wrapped_avframe --enable-filter='buffer,buffersink,null,format,scale'
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+Input #0, matroska,webm, from 'C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\media\h264.mkv':
+  Metadata:
+    ENCODER         : Lavf61.0.100
+  Duration: 00:00:04.00, bitrate: 460 kb/s
+  Stream #0:0: Video: h264, none(progressive), 320x240, SAR 1:1 DAR 4:3, 30 fps, 30 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc61.1.101 libx264
+      DURATION        : 00:00:04.000000000
+[vist#0:0/h264 @ 00000189740f1b80] Decoding requested, but no decoder found for: h264
+[vost#0:0/wrapped_avframe @ 0000018974115640] Error initializing a simple filtergraph
+Error opening output file -.
+Error opening output files: Invalid argument

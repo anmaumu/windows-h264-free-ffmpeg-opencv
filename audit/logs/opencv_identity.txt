@@ -1,0 +1,2 @@
+cv2.__file__=C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\.venv\Lib\site-packages\cv2\__init__.py
+cv2.__version__=4.10.0
