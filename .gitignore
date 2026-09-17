@@ -36,6 +36,10 @@ audit/logs/*
 !audit/logs/benchmark-custom-vp9.stderr.txt
 !audit/logs/benchmark-standard-vp9.json
 !audit/logs/benchmark-standard-vp9.stderr.txt
+!audit/logs/benchmark-imgproc-custom.json
+!audit/logs/benchmark-imgproc-custom.stderr.txt
+!audit/logs/benchmark-imgproc-standard.json
+!audit/logs/benchmark-imgproc-standard.stderr.txt
 !audit/logs/nuitka-run-external-ffmpeg.stdout.txt
 !audit/logs/nuitka-run-no-ffmpeg.stderr.txt
 !audit/logs/target_version.stdout.txt
