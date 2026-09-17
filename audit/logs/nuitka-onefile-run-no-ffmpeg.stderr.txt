@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\masaki\AppData\Local\Temp\ONEFIL~1\no_ffmpeg_app.py", line 88, in <module>
+  File "C:\Users\masaki\AppData\Local\Temp\ONEFIL~1\no_ffmpeg_app.py", line 63, in main
+  File "<frozen importlib._bootstrap>", line 813, in module_from_spec
+  File "<frozen importlib._bootstrap_external>", line 1293, in create_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+ImportError: DLL load failed while importing cv2: �w�肳�ꂽ���W���[����������܂���B

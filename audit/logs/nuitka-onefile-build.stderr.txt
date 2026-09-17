@@ -1,0 +1,28 @@
+Nuitka-Options: Used command line options:
+Nuitka-Options:   --onefile --assume-yes-for-downloads --mingw64 --output-dir=C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\onefile-build --output-filename=no_ffmpeg_onefile.exe --include-data-files=C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\opencv_payload.zip=opencv_payload.zip --noinclude-dlls=avcodec-60.dll --noinclude-dlls=avformat-60.dll --noinclude-dlls=avutil-58.dll --noinclude-dlls=swscale-7.dll --noinclude-dlls=swresample-4.dll --noinclude-dlls=avfilter-9.dll ~\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\no_ffmpeg_app.py
+Nuitka: Starting Python compilation with:
+Nuitka:   Version '2.7.16' on Python 3.12 (flavor 'Unknown') commercial grade 'not installed'.
+Nuitka: Completed Python level compilation and optimization.
+Nuitka: Generating source code for C backend compiler.
+Nuitka: Running data composer tool for optimal constant value handling.
+Nuitka: Running C compilation via Scons.
+Nuitka-Scons: Non downloaded winlibs-gcc 'C:\Program Files (x86)\mingw64\bin\gcc.exe' is being ignored, Nuitka is very dependent on the precise one.
+Nuitka-Scons: Backend C compiler: gcc (gcc 14.2.0).
+Nuitka-Scons: Backend C linking with 99 files (no progress information available for this stage).
+Nuitka-Scons: Compiled 99 C files using ccache.
+Nuitka-Scons: Cached C files (using ccache) with result 'cache hit': 98
+Nuitka-Scons: Cached C files (using ccache) with result 'cache miss': 1
+Nuitka-Options: Included data file 'opencv_payload.zip' due to specified data file 'C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\opencv_payload.zip=opencv_payload.zip' on command line.
+Nuitka-Postprocessing: Creating single file from dist folder, this may take a while.
+Nuitka-Onefile: Running bootstrap binary compilation via Scons.
+Nuitka-Scons: Non downloaded winlibs-gcc 'C:\Program Files (x86)\mingw64\bin\gcc.exe' is being ignored, Nuitka is very dependent on the precise one.
+Nuitka-Scons: Onefile C compiler: gcc (gcc 14.2.0).
+Nuitka-Scons: Onefile C linking.
+Nuitka-Scons: Compiled 1 C files using ccache.
+Nuitka-Scons: Cached C files (using ccache) with result 'cache hit': 1
+Nuitka-Onefile: Using compression for onefile payload.
+Nuitka-Onefile: Onefile payload compression ratio (27.43%) size 91423524 to 25073335.
+Nuitka-Onefile: Keeping onefile build directory 'C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\onefile-build\no_ffmpeg_app.onefile-build'.
+Nuitka: Keeping dist folder 'C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\onefile-build\no_ffmpeg_app.dist' for inspection, no need to use it.
+Nuitka: Keeping build directory 'C:\Users\masaki\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\onefile-build\no_ffmpeg_app.build'.
+Nuitka: Successfully created '~\Documents\Codex\2026-09-16\windows-x64-h-264-ffmpeg-opencv\audit\nuitka\onefile-build\no_ffmpeg_onefile.exe'.

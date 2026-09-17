@@ -8,6 +8,10 @@ audit/prefix/
 audit/nuitka/cache/
 audit/nuitka/build/
 audit/nuitka/short-build/
+audit/nuitka/onefile-build/
+audit/nuitka/onefile-data/
+audit/nuitka/onefile-payload/
+audit/nuitka/opencv_payload.zip
 audit/nuitka/empty-ffmpeg/
 nuitka-crash-report.xml
 
@@ -21,6 +25,13 @@ audit/logs/*
 !audit/logs/opencv_loaded_modules.txt
 !audit/logs/opencv_verification.json
 !audit/logs/nuitka-verification.json
+!audit/logs/nuitka-onefile-verification.json
+!audit/logs/nuitka-onefile-run-external.stdout.txt
+!audit/logs/nuitka-onefile-run-external.stderr.txt
+!audit/logs/nuitka-onefile-run-no-ffmpeg.stdout.txt
+!audit/logs/nuitka-onefile-run-no-ffmpeg.stderr.txt
+!audit/logs/nuitka-onefile-build.stdout.txt
+!audit/logs/nuitka-onefile-build.stderr.txt
 !audit/logs/nuitka-run-external-ffmpeg.stdout.txt
 !audit/logs/nuitka-run-no-ffmpeg.stderr.txt
 !audit/logs/target_version.stdout.txt

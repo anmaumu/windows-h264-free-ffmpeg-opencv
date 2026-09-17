@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "exe": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\nuitka\\onefile-build\\no_ffmpeg_onefile.exe",
+  "exe_sha256": "16ED224820FFFDE0AB55212B2EC551BD7B379C1CF59DF278662C99375885D63C",
+  "exe_bytes": 25238528,
+  "adjacent_ffmpeg_dll_count": 0,
+  "sanitized_path": "C:\\Windows\\System32",
+  "external_run_exit": 0,
+  "missing_ffmpeg_run_exit": 1,
+  "backend": "FFMPEG",
+  "valid_frames": 100,
+  "cv2_file": "C:\\Users\\masaki\\AppData\\Local\\Temp\\onefile_27496_134341541671007521\\cv2\\python-3.12\\cv2.cp312-win_amd64.pyd",
+  "loaded_ffmpeg_dlls": {
+    "avcodec-60.dll": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avcodec-60.dll",
+    "avformat-60.dll": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avformat-60.dll",
+    "avutil-58.dll": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\avutil-58.dll",
+    "swscale-7.dll": "C:\\Users\\masaki\\Documents\\Codex\\2026-09-16\\windows-x64-h-264-ffmpeg-opencv\\audit\\prefix\\ffmpeg\\bin\\swscale-7.dll"
+  },
+  "loaded_paths_match_external_dir": true
+}
